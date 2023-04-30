@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  app:
+    image: react-quiz-app:latest
+    container_name: myapp
+    ports:
+     - '8000:8000'
