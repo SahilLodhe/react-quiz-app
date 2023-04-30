@@ -4,4 +4,4 @@ services:
     image: react-quiz-app:latest
     container_name: myapp
     ports:
-     - '8000:8000'
+     - '3000:3000'
