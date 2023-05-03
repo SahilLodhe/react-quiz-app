@@ -42,6 +42,8 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+
+
+
       - name: Build docker image
         run: docker build -f ./Dockerfile . -t react-quiz-app:latest
-        
